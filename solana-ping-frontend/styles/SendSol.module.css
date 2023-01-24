@@ -1,0 +1,23 @@
+.sendSolForm {
+  padding: 10px;
+}
+
+.inputField {
+  font-size: calc(10px + 2vmin);
+  padding: 6px 0;
+  margin: 10px 0;
+}
+
+.inputField:focus {
+  outline: none;
+}
+
+.actionArea {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.action {
+  font-size: calc(10px + 2vmin);
+  border: none;
+}
