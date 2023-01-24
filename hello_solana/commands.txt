@@ -1,0 +1,2 @@
+cargo build: cargo build-bpf
+deploy program: solana program deploy ./target/deploy/hello_world.so
