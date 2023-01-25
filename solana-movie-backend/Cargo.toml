@@ -10,4 +10,5 @@ name = "solana_movie_backend"
 crate-type = ["cdylib", "lib"]
 
 [dependencies]
+borsh = "0.10.0"
 solana-program = "1.14.13"

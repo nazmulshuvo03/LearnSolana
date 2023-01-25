@@ -8,8 +8,8 @@ use instruction::MovieInstruction;
 entrypoint!(process_instruction);
 
 pub fn add_movie_review(
-    program_id: &Pubkey,
-    accounts: &[AccountInfo],
+    _program_id: &Pubkey,
+    _accounts: &[AccountInfo],
     title: String,
     rating: u8,
     description: String,
@@ -36,3 +36,5 @@ pub fn process_instruction(
         } => add_movie_review(program_id, accounts, title, rating, description),
     }
 }
+
+// Program ID: Au2zpNB4qBp8ehRu4sMk7wozKTP3oyE1V9zmUeqkNSgH
