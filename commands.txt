@@ -2,7 +2,7 @@ run localhost validator: solana-test-validator
 
 cargo create new library: cargo init hello_world --lib
 
-add solana program: cargo add solana-program
+add a program: cargo add program-name
 
 update configuration in Cargo.toml:
     [lib]
