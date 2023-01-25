@@ -1,0 +1,14 @@
+run localhost validator: solana-test-validator
+
+cargo create new library: cargo init hello_world --lib
+
+add solana program: cargo add solana-program
+
+update configuration in Cargo.toml:
+    [lib]
+    name = "hello_world"
+    crate-type = ["cdylib", "lib"]
+
+cargo build: cargo build-bpf
+
+deploy program: solana program deploy ./target/deploy/hello_world.so
