@@ -27,7 +27,7 @@ async function main() {
 2) sugar mint -> to mint the tokens.
   Sample Candy Machine URL as following:
   https://www.solaneyes.com/address/Aa7Vjmo7UE2cQTMCkTGmiu5uYjssQdoyhtjzgKW5QRZW?cluster=devnet
-
+  https://www.solaneyes.com/address/6KFWRandCy9zU6Eh6mrrMiPq8mrNSQJJeNykzymk23Cw?cluster=devnet
  *
  **/
 
