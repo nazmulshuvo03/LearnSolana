@@ -1,0 +1,7 @@
+target/
+test-ledger/
+*.lock
+node_modules/
+
+solana.png
+solana.svg
