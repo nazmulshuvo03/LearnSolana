@@ -1,0 +1,20 @@
+[package]
+name = "solana-movie-program"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+no-entrypoint = []
+
+[dependencies]
+# borsh = "0.10.3"
+# solana-program = "1.16.1"
+# thiserror = "1.0.40"
+solana-program = "~1.10.29"
+borsh = "0.9.3"
+thiserror = "1.0.31"
+
+[lib]
+crate-type = ["cdylib", "lib"]
