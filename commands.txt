@@ -12,3 +12,8 @@ update configuration in Cargo.toml:
 cargo build: cargo build-bpf
 
 deploy program: solana program deploy ./target/deploy/hello_world.so
+
+// set solana URL to localhost or devnet
+solana config set --url localhost
+or, solana config set --url devnet
+
