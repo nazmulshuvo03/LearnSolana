@@ -17,3 +17,18 @@ deploy program: solana program deploy ./target/deploy/hello_world.so
 solana config set --url localhost
 or, solana config set --url devnet
 
+// In Anchor Framework
+// To skip local validation 
+// run solana-test-validator and 
+// to test use this command
+anchor test --skip-local-validator
+
+// Then copy the Transaction Signature and 
+// use this command to verify the transaction
+solana confirm -v <Transaction Signature>
+
+// Copy a account address from there;
+// mainly the second one
+// Account 1, and use this command to
+// check the account balance and data
+solana account <Account 1>
