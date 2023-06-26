@@ -1,0 +1,23 @@
+{
+    "name": "Image002",
+    "symbol": "IMG",
+    "description": "Collection of my test images.",
+    "image": "2.png",
+    "external_url": "https://www.instagram.com/undefined/",
+    "sellerFeeBasisPoints": 100,
+    "attributes": [
+        {
+            "trait_type": "creature",
+            "value": "human"
+        }
+    ],
+    "collection": "Tempo",
+    "properties": {
+        "files": [
+            {
+                "uri": "2.png",
+                "type": "image/png"
+            }
+        ]
+    }
+}

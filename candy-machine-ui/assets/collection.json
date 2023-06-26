@@ -1,0 +1,16 @@
+{
+    "name": "ImgCollection0001",
+    "symbol": "IMG",
+    "description": "Collection of my test images.",
+    "image": "collection.png",
+    "external_url": "https://www.instagram.com/undefined/",
+    "sellerFeeBasisPoints": 100,
+    "properties": {
+        "files": [
+            {
+                "uri": "collection.png",
+                "type": "image/png"
+            }
+        ]
+    }
+}
