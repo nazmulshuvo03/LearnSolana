@@ -1,0 +1,6 @@
+[
+  {
+    "path": "assets/collection.json",
+    "error": "missing field `attributes` at line 16 column 1"
+  }
+]

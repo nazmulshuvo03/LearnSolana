@@ -5,6 +5,11 @@
     "image": "collection.png",
     "external_url": "https://www.instagram.com/undefined/",
     "sellerFeeBasisPoints": 100,
+    "attributes": [
+        { "trait_type": "scene", "value": "home" },
+        { "trait_type": "costume", "value": "none" },
+        { "trait_type": "mood", "value": "handsome" }
+    ],
     "properties": {
         "files": [
             {

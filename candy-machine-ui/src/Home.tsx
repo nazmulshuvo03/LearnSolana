@@ -448,6 +448,7 @@ const Home = (props: HomeProps) => {
   };
 
   useEffect(() => {
+  console.log("public key", publicKey?.toBase58());
     refreshCandyMachineState();
   }, [
     anchorWallet,
