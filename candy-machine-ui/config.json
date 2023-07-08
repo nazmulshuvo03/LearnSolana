@@ -1,5 +1,5 @@
 {
-  "price": 1.0,
+  "price": 2.0,
   "number": 3,
   "gatekeeper": null,
   "creators": [
@@ -11,7 +11,7 @@
   "solTreasuryAccount": "9xkh4nEvvxLtLVNU5AQyBGEcbgsXuTg3Xa5mRSZduTJ2",
   "splTokenAccount": null,
   "splToken": null,
-  "goLiveDate": "2023-06-28T15:01:49.711074212+00:00",
+  "goLiveDate": "2023-07-01T19:12:34.509807427+00:00",
   "endSettings": null,
   "whitelistMintSettings": null,
   "hiddenSettings": null,
